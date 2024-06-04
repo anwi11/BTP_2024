@@ -1,0 +1,564 @@
+ ANSYS
+      License feature : Explicit - Advanced
+      License type    : Academic Student
+
+
+
+       AAAAAA   UU    UU  TTTTTTTT   OOOOOO   DDDDDDD   YY    YY  NN    NN  TM
+      AA    AA  UU    UU     TT     OO    OO  DD    DD   YY  YY   NNN   NN
+      AA    AA  UU    UU     TT     OO    OO  DD    DD    YYYY    NNNN  NN
+      AAAAAAAA  UU    UU     TT     OO    OO  DD    DD     YY     NN NN NN
+      AA    AA  UU    UU     TT     OO    OO  DD    DD     YY     NN  NNNN
+      AA    AA  UU    UU     TT     OO    OO  DD    DD     YY     NN   NNN
+      AA    AA   UUUUUU      TT      OOOOOO   DDDDDDD      YY     NN    NN
+
+
+
+
+           Copyright (C) 2021, ANSYS, Inc.  All rights reserved.
+           Unauthorized use, distribution or duplication is prohibited.
+
+
+
+
+ 
+
+
+
+
+                                2024 R1
+                                   
+                 Point Releases and Patches installed:
+                                   
+                           Discovery 2024 R1
+                            Fluids 2024 R1
+                    Ansys Dynamic Reporting 2024 R1
+                          SpaceClaim 2024 R1
+                    CFX (includes CFD-Post) 2024 R1
+                            Chemkin 2024 R1
+                            EnSight 2024 R1
+                          FENSAP-ICE 2024 R1
+                  Fluent (includes CFD-Post) 2024 R1
+                 Polyflow (includes CFD-Post) 2024 R1
+                   Forte (includes EnSight) 2024 R1
+                           TurboGrid 2024 R1
+                    ACIS Geometry Interface 2024 R1
+                  AutoCAD Geometry Interface 2024 R1
+              Catia, Version 4 Geometry Interface 2024 R1
+              Catia, Version 5 Geometry Interface 2024 R1
+              Catia, Version 6 Geometry Interface 2024 R1
+       Creo Elements/Direct Modeling Geometry Interface 2024 R1
+              Creo Parametric Geometry Interface 2024 R1
+                  Inventor Geometry Interface 2024 R1
+                   JTOpen Geometry Interface 2024 R1
+                     NX Geometry Interface 2024 R1
+                 Parasolid Geometry Interface  2024 R1
+                 Solid Edge Geometry Interface 2024 R1
+                 SOLIDWORKS Geometry Interface 2024 R1
+                             Speos 2024 R1
+                             Aqwa 2024 R1
+                            Autodyn 2024 R1
+                   Material Calibration App 2024 R1
+      Customization Files for User Programmable Features 2024 R1
+                      Mechanical Products 2024 R1
+                            Motion 2024 R1
+                       Academic Student 2024 R1
+
+
+
+
+                            Solver :   AUTODYN
+                             Build :   AUTODYN-2D Academic V-2024 R1           
+                Model File Version :   2024 R1
+                        Build Date :   20231106
+                 Current Date/Time :   20240509  1:42 (+0530GMT)
+                          Platform :   64 bit
+                              Beta :   FALSE
+                   User Subroutine :   FALSE
+
+
+
+
+                             IDENT :   autodyn                                                                                                                                                                                                                                                         
+                             Title :                                           
+                       Description :                                                                                                                                                                                                                                                                   
+                     Symmetry Type :        Axial
+                       Start Cycle :          475
+                        Start Time :  2.24932E-02
+                         Precision :   Double
+
+
+
+
+   UNITS
+
+                            Length :   millimeter
+                              Mass :   milligram 
+                              Time :   millisec. 
+
+
+
+
+   WRAPUP PARAMETERS
+
+                       Cycle Limit :        10000
+                        Time Limit :  4.00000E-02
+     Maximum Energy Error Fraction :  5.00000E-02
+            Energy Reference Cycle :       999999
+
+
+
+
+   TIME STEP INFORMATION
+
+                 Minimum Time Step :  2.32838E-06
+                 Maximum Time Step :  1.00000E+08
+                 Initial Time Step :  6.49123E-05
+           Time Step Safety Factor :  6.66600E-01
+
+
+
+
+   GRAVITATIONAL CONSTANTS
+
+             Global X Acceleration :  0.00000E+00
+             Global Y Acceleration :  0.00000E+00
+
+
+
+
+   GRAVITATIONAL AND ACCELERATION CONSTANTS - SUM AT START CYCLE
+
+             Total  X Acceleration :  0.00000E+00
+             Total  Y Acceleration :  0.00000E+00
+
+
+
+
+   DAMPING CONSTANTS
+
+               Quadratic Viscosity :  1.00000E+00
+                  Linear Viscosity :  2.00000E-01
+     Apply Lin.vis. in exp. for HE :  Yes
+                 Hourglass Damping :  1.00000E-01
+                    Static Damping :  0.00000E+00
+                 Anti-tangle Force :  0.00000E+00
+
+
+
+
+
+ 
+   GLOBAL OUTPUT CONTROLS
+
+                    Save Results On  : Cycles
+                    Increments :        1.00000E+08
+                    Save Restarts On : Time
+                    Increments :        1.00000E-03
+                    Save Trackers On : Cycles
+                    Increments :        1.00000E+00
+
+
+
+
+   CUTOFF VALUES
+
+                   Velocity Cutoff :  1.00000E-06
+                 Soundspeed Cutoff :  1.00000E-06
+                     Radius Cutoff :  1.00000E-03
+                    Density Cutoff :  1.00000E-04
+                  Maximum Velocity :  1.00499E+10
+               Maximum Temperature :  1.01000E+20
+
+
+
+
+   EULER/ALE/SPH TRANSPORT OPTIONS
+
+     ALE/Eul energy transport type :  Internal energy
+               Transport algorithm :  SLIC
+     Mat. vel. tstep safety factor :  1.00000E+00
+
+
+
+
+   METHOD OF CALCULATING CHARACTERISTIC ZONE DIMENSION
+
+                     Method to Use :  Diagonals
+
+
+
+
+   METHOD OF UPDATING LAG/ALE CELL DENSITIES AND COMPRESSIONS
+
+                     Method to Use :  Automatic
+
+
+
+
+   DETONATION LOCATIONS
+
+                   TIME           X #1           Y #1           X #2           Y #2           TYPE
+
+       1    0.00000E+00   -2.00000E+01    0.00000E+00                                   POINT
+     Unrestricted Range Of Influence
+
+
+
+
+
+ 
+   MATERIALS
+
+
+
+                         MATERIAL NAME: AIR                           
+
+
+                     Equation of State             Ideal Gas                                                                       
+
+          Reference density                      (g/cm3   ) 1.22500E-03
+          Gamma                                  (none    ) 1.40000E+00
+          Adiabatic constant                     (none    ) 0.00000E+00
+          Pressure shift                         (kPa     ) 0.00000E+00
+          Reference Temperature                  (K       ) 2.88200E+02
+          Specific Heat                          (J/kgK   ) 7.17600E+02
+          Thermal Conductivity                   (J/mKs   ) 0.00000E+00
+
+
+                     Strength                      None                                                                            
+
+
+
+                     Failure                       None                                                                            
+
+
+
+                     Erosion                       None                                                                            
+
+
+
+                     Material Cutoffs              
+
+          Maximum Expansion                      (none    ) 1.00000E-01
+          Minimum Density Factor                 (none    ) 1.00000E-04
+          Minimum Density Factor (SPH)           (none    ) 2.00000E-01
+          Maximum Density Factor (SPH)           (none    ) 3.00000E+00
+          Minimum Soundspeed                     (m/s     ) 1.00000E-02
+          Maximum Soundspeed (SPH)               (m/s     ) 1.01000E+20
+          Maximum Temperature                    (K       ) 1.01000E+20
+
+
+           Reference: 
+"Thermodynamic and Transport Properties of Fluids, SI Units", GFC Rogers, YR Mayhew                                                                                                                                                                             
+
+
+           Notes: 
+                                                                                                                                                                                                                                                                
+
+
+                         MATERIAL NAME: COMP B                        
+
+
+                     Equation of State             JWL                                                                             
+
+          Reference density                      (g/cm3   ) 1.71700E+00
+          Parameter A                            (kPa     ) 5.24230E+08
+          Parameter B                            (kPa     ) 7.67800E+06
+          Parameter R1                           (none    ) 4.20000E+00
+          Parameter R2                           (none    ) 1.10000E+00
+          Parameter W                            (none    ) 3.40000E-01
+          C-J Detonation velocity                (m/s     ) 7.98000E+03
+          C-J Energy / unit volume               (kJ/m3   ) 8.50000E+06
+          C-J Pressure                           (kPa     ) 2.95000E+07
+          Burn on compression fraction           (none    ) 0.00000E+00
+          Pre-burn bulk modulus                  (kPa     ) 0.00000E+00
+          Adiabatic constant                     (none    ) 0.00000E+00
+                  Auto-convert to Ideal Gas               : Yes                                   
+                  Additional Options (Beta)               : None                                  
+
+
+                     Strength                      None                                                                            
+
+
+
+                     Failure                       None                                                                            
+
+
+
+                     Erosion                       None                                                                            
+
+
+
+                     Material Cutoffs              
+
+          Maximum Expansion                      (none    ) 1.00000E-01
+          Minimum Density Factor                 (none    ) 1.00000E-06
+          Minimum Density Factor (SPH)           (none    ) 2.00000E-01
+          Maximum Density Factor (SPH)           (none    ) 3.00000E+00
+          Minimum Soundspeed                     (m/s     ) 1.00000E-06
+          Maximum Soundspeed (SPH)               (m/s     ) 1.01000E+20
+          Maximum Temperature                    (K       ) 1.01000E+20
+
+
+           Reference: 
+"LLNL Explosives Handbook"  Dobratz B.M & CrawfordP.C.  UCRL-52997 Rev.2   January 1985                                                                                                                                                                         
+
+
+           Notes: 
+                                                                                                                                                                                                                                                                
+
+
+                         MATERIAL NAME: LUCITE                        
+
+
+                     Equation of State             Shock                                                                           
+
+          Reference density                      (g/cm3   ) 1.18100E+00
+          Gruneisen coefficient                  (none    ) 7.50000E-01
+          Parameter C1                           (m/s     ) 2.26000E+03
+          Parameter S1                           (none    ) 1.81600E+00
+          Parameter Quadratic S2                 (s/m     ) 0.00000E+00
+          Relative volume, VE/V0                 (none    ) 0.00000E+00
+          Relative volume, VB/V0                 (none    ) 0.00000E+00
+          Parameter C2                           (m/s     ) 0.00000E+00
+          Parameter S2                           (none    ) 0.00000E+00
+          Reference Temperature                  (K       ) 0.00000E+00
+          Specific Heat                          (J/kgK   ) 0.00000E+00
+          Thermal Conductivity                   (J/mKs   ) 0.00000E+00
+
+
+                     Strength                      None                                                                            
+
+
+
+                     Failure                       None                                                                            
+
+
+
+                     Erosion                       None                                                                            
+
+
+
+                     Material Cutoffs              
+
+          Maximum Expansion                      (none    ) 1.00000E-01
+          Minimum Density Factor                 (none    ) 1.00000E-04
+          Minimum Density Factor (SPH)           (none    ) 2.00000E-01
+          Maximum Density Factor (SPH)           (none    ) 3.00000E+00
+          Minimum Soundspeed                     (m/s     ) 1.00000E-06
+          Maximum Soundspeed (SPH)               (m/s     ) 1.01000E+20
+          Maximum Temperature                    (K       ) 1.01000E+20
+
+
+           Reference: 
+LA-4167-MS. May 1 1969. Selected Hugoniots                                                                                                                                                                                                                      
+
+
+           Notes: 
+                                                                                                                                                                                                                                                                
+
+
+                         MATERIAL NAME: STEEL 1006                    
+
+
+                     Equation of State             Shock                                                                           
+
+          Reference density                      (g/cm3   ) 7.89600E+00
+          Gruneisen coefficient                  (none    ) 2.17000E+00
+          Parameter C1                           (m/s     ) 4.56900E+03
+          Parameter S1                           (none    ) 1.49000E+00
+          Parameter Quadratic S2                 (s/m     ) 0.00000E+00
+          Relative volume, VE/V0                 (none    ) 0.00000E+00
+          Relative volume, VB/V0                 (none    ) 0.00000E+00
+          Parameter C2                           (m/s     ) 0.00000E+00
+          Parameter S2                           (none    ) 0.00000E+00
+          Reference Temperature                  (K       ) 3.00000E+02
+          Specific Heat                          (J/kgK   ) 4.52000E+02
+          Thermal Conductivity                   (J/mKs   ) 0.00000E+00
+
+
+                     Strength                      Johnson Cook                                                                    
+
+          Shear Modulus                          (kPa     ) 8.18000E+07
+          Yield Stress                           (kPa     ) 3.50000E+05
+          Hardening Constant                     (kPa     ) 2.75000E+05
+          Hardening Exponent                     (none    ) 3.60000E-01
+          Strain Rate Constant                   (none    ) 2.20000E-02
+          Thermal Softening Exponent             (none    ) 1.00000E+00
+          Melting Temperature                    (K       ) 1.81100E+03
+          Ref. Strain Rate (/s)                  (none    ) 1.00000E+00
+                  Strain Rate Correction                  : 1st Order                             
+
+
+                     Failure                       None                                                                            
+
+
+
+                     Erosion                       None                                                                            
+
+
+
+                     Material Cutoffs              
+
+          Maximum Expansion                      (none    ) 1.00000E-01
+          Minimum Density Factor                 (none    ) 1.00000E-04
+          Minimum Density Factor (SPH)           (none    ) 2.00000E-01
+          Maximum Density Factor (SPH)           (none    ) 3.00000E+00
+          Minimum Soundspeed                     (m/s     ) 1.00000E-06
+          Maximum Soundspeed (SPH)               (m/s     ) 1.01000E+20
+          Maximum Temperature                    (K       ) 1.01000E+20
+
+
+           Reference: 
+LA-4167-MS. May 1 1969. Selected Hugoniots: EOS   7th Int. Symp. Ballistics. Johnson & Cook                                                                                                                                                                     
+
+
+           Notes: 
+                                                                                                                                                                                                                                                                
+
+
+
+
+
+
+
+
+
+ 
+   BOUNDARY CONDITIONS
+
+
+
+                     FlowOut : Flow out (Euler)                                                      
+
+              Flow material            :  ALL EQUAL                                         
+
+
+
+
+
+
+
+
+
+ 
+     STRUCTURED PARTS
+
+           PART         PROCESSOR      IMAX     JMAX
+
+       1   Space        Euler           201       61
+       2   Liner        Lagrange          6        6
+       3   Exp          Lagrange          6        6
+       4   Cas          Lagrange          5        3
+
+           TOTAL NUMBER NODES:       12348
+
+
+
+
+   SUBGRID ACTIVATION / DEACTIVATION TIMES
+
+           SUBGRID        ACTIVATION   DEACTIVATION
+                             TIME          TIME
+       1   Space        -1.01000E+20    1.01000E+20
+       2   Liner        -1.01000E+20    1.01000E+20
+       3   Exp          -1.01000E+20    1.01000E+20
+       4   Cas          -1.01000E+20    1.01000E+20
+
+
+
+
+
+ 
+   EDITS
+
+       EDIT FREQUENCY
+       EDIT TYPE   HOW DONE          START           END     INCREMENT
+
+       SAVE        by times    2.30000E-02   1.00000E+00   1.00000E-03
+       GRIDVAR     Never     
+       ENERGYSUM   Wrapup    
+       CYCSUM      Never     
+       HISTORY     by cycles           476     100000000             1
+       USER        Never     
+       GRIDSNAP    Never     
+       MATSNAP     Never     
+       VECSNAP     Never     
+       CONSNAP     Never     
+       DISPLAY     Never     
+
+
+     DISPLAY EDIT
+
+       Refresh Frequency : 25 cycles
+
+ 
+   JOINED BOUNDARIES
+
+     (Unless otherwise stated a subgrid is joined
+     to itself but to no other subgrid)
+
+ 
+     Subgrid Space      is not joined to itself
+
+
+
+
+
+
+
+
+
+
+
+
+
+CYCLE     569, TIME=  2.879E-02                                                                                  ENERGY SUMMARY EDIT
+ 
+
+
+ENERGY AND MOMENTUM PARTITIONING BY MATERIALS
+
+                                                         INTERNAL   KINETIC   DISTORT
+MATERIAL                                 MASS    VOLUME    ENERGY    ENERGY    ENERGY XMOMENTUM YMOMENTUM
+
+AIR                                 8.851E+02 3.211E+05 8.708E+08 1.008E+09 4.924E+06 3.972E+05 6.970E+05
+COMP B                              1.606E+05 6.404E+06 2.053E+11 3.627E+11 3.339E+08 8.937E+06 2.270E+08
+LUCITE                              7.247E+03 6.220E+03 2.805E+08 8.457E+09 1.331E+05 5.439E+06 5.191E+05
+STEEL 1006                          2.373E+05 3.027E+04 4.405E+09 3.594E+10 2.487E+09-6.919E+06 4.712E+07
+---------------------------------------------------------------------------------------------------------
+TOTALS                              4.060E+05 6.761E+06 2.109E+11 4.081E+11 2.826E+09 7.853E+06 2.753E+08
+
+
+ENERGY AND MOMENTUM PARTITIONING BY PARTS
+
+                                                         INTERNAL   KINETIC   DISTORT                     HOURGLASS   CONTACT
+PART                                     MASS    VOLUME    ENERGY    ENERGY    ENERGY XMOMENTUM YMOMENTUM    ENERGY    ENERGY
+
+Space                               1.354E+05 1.178E+06 7.187E+10 1.093E+11 2.826E+09 7.853E+06 1.133E+08 0.000E+00 0.000E+00
+Liner                               5.343E+03 4.524E+03 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+Exp                                 8.631E+04 5.556E+06 1.390E+11 2.988E+11 0.000E+00 2.448E-03 1.620E+08 1.286E+10 0.000E+00
+Cas                                 1.789E+05 2.266E+04 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00 0.000E+00
+-----------------------------------------------------------------------------------------------------------------------------
+TOTALS                              4.060E+05 6.761E+06 2.109E+11 4.081E+11 2.826E+09 7.853E+06 2.753E+08 1.286E+10 0.000E+00
+
+
+ENERGY AND MOMENTUM BALANCE
+
+INITIAL     ENERGY 8.54792E+11   X-MOMENTUM 0.00000E+00   Y-MOMENTUM 0.00000E+00
+EXTERNAL      WORK-2.25031E+11    X-IMPULSE 7.85392E+06    Y-IMPULSE-1.68245E+08
+HOOP                                                       Y-IMPULSE 4.42631E+08
+CONTACT     ENERGY 0.00000E+00
+CURRENT     ENERGY 6.19016E+11   X-MOMENTUM 7.85329E+06   Y-MOMENTUM 2.75286E+08
+--------------------------------------------------------------------------------
+ERROR             -1.07451E+10             -6.26819E+02              9.00524E+05
+ 
+ 
+SIMULATION ELAPSED TIME SUMMARY
+ 
+EXECUTION FROM CYCLE      476 TO      569
+ELAPSED RUN TIME IN SOLVER =      5.10833E-02 Minutes
+ELAPSED RUN TIME IN EDITS  =      4.08333E-02 Minutes
+TOTAL ELAPSED RUN TIME     =      9.19167E-02 Minutes
+ 
