@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
+<AUTODYNSummary>
+<Model>
+<Name>autodyn</Name>
+<Job>
+<Property name="Type">
+<Data format="string">Serial</Data>
+<Units />
+</Property>
+</Job>
+<Property name="Precision">
+<Data format="string">Double</Data>
+<Units />
+</Property>
+<Property name="Beta Options">
+<Data format="string">No</Data>
+<Units />
+</Property>
+<Property name="Number of Parts">
+<Data format="int">0</Data>
+<Units />
+</Property>
+<Property name="Number of Bodies">
+<Data format="int">0</Data>
+<Units />
+</Property>
+<Property name="Number of Elements">
+<Data format="int">0</Data>
+<Units />
+</Property>
+<Property name="Number of Nodes">
+<Data format="int">0</Data>
+<Units />
+</Property>
+<Mesh>
+<QuadElements>0</QuadElements>
+<TriElements>0</TriElements>
+<BeamElements>0</BeamElements>
+</Mesh>
+<RemotePoints>
+</RemotePoints>
+<Bodies>
+</Bodies>
+<EulerDomain>
+<Domain><Name>Space     </Name>
+<ElementsInX>200</ElementsInX>
+<ElementsInY>60</ElementsInY>
+<Property name="Origin X">
+<Data format="float">-5.00000E+01</Data>
+<Units>mm</Units>
+</Property>
+<Property name="Origin Y">
+<Data format="float"> 0.00000E+00</Data>
+<Units>mm</Units>
+</Property>
+<Property name="Size X">
+<Data format="float"> 1.50000E+02</Data>
+<Units>mm</Units>
+</Property>
+<Property name="Size Y">
+<Data format="float"> 5.00000E+01</Data>
+<Units>mm</Units>
+</Property>
+<Property name="Lower X Face">
+<Data format="string">Rigid</Data>
+<Units />
+</Property>
+<Property name="Lower Y Face">
+<Data format="string">Rigid</Data>
+<Units />
+</Property>
+<Property name="Upper X Face">
+<Data format="string">Flow Out</Data>
+<Units />
+</Property>
+<Property name="Upper Y Face">
+<Data format="string">Flow Out</Data>
+<Units />
+</Property>
+</Domain>
+</EulerDomain>
+</Model>
+<UnitSystem>
+<Property name="Mass">
+<Data format="string">mg</Data>
+<Units />
+</Property>
+<Property name="Length">
+<Data format="string">mm</Data>
+<Units />
+</Property>
+<Property name="Time">
+<Data format="string">ms</Data>
+<Units />
+</Property>
+</UnitSystem>
+<Symmetry>
+<Property name="SymmetryX">
+<Data format="string">Yes</Data>
+<Units />
+</Property>
+<Property name="SymmetryY">
+<Data format="string">No</Data>
+<Units />
+</Property>
+<Property name="SymmetryZ">
+<Data format="string">No</Data>
+<Units />
+</Property>
+</Symmetry>
+<AnalysisSettings>
+<StepControls>
+<Property name="Resume From Time Step">
+<Data format="int">443</Data>
+<Units />
+</Property>
+<Property name="Maximum Time Steps">
+<Data format="int">10000</Data>
+<Units />
+</Property>
+<Property name="End Time">
+<Data format="float"> 4.00000E-02</Data>
+<Units>ms</Units>
+</Property>
+<Property name="Maximum Energy Error">
+<Data format="float"> 5.00000E-02</Data>
+<Units />
+</Property>
+<Property name="Reference Energy Time Step">
+<Data format="int">999999</Data>
+<Units />
+</Property>
+<Property name="Initial Time Step">
+<Data format="float"> 5.16192E-05</Data>
+<Units>ms</Units>
+</Property>
+<Property name="Minimum Time Step">
+<Data format="float"> 2.11142E-06</Data>
+<Units>ms</Units>
+</Property>
+<Property name="Maximum Time Step">
+<Data format="float"> 1.00000E+08</Data>
+<Units>ms</Units>
+</Property>
+<Property name="Time Step Safety Factor">
+<Data format="float"> 6.66600E-01</Data>
+<Units />
+</Property>
+<LoadSteps>
+</LoadSteps>
+<LoadCases>
+</LoadCases>
+<ComSnips>
+</ComSnips>
+<Property name="Characteristic Zone Dimension">
+<Data format="string">Diagonals</Data>
+<Units />
+</Property>
+<MassScaling>
+<Property name="Automatic Mass Scaling">
+<Data format="string">No</Data>
+<Units />
+</Property>
+</MassScaling>
+</StepControls>
+<SolverControls>
+<Property name="Unit System">
+<Data format="string">mm, mg, ms</Data>
+<Units />
+</Property>
+<Property name="Density Update">
+<Data format="string">Program Controlled</Data>
+<Units />
+</Property>
+<Property name="Minimum Velocity">
+<Data format="float"> 1.00000E-06</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Maximum Velocity">
+<Data format="float"> 1.00499E+10</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Radius Cutoff">
+<Data format="float"> 1.00000E-03</Data>
+<Units>mm</Units>
+</Property>
+<Property name="Minimum Strain Rate Cutoff">
+<Data format="float"> 1.00000E-10</Data>
+<Units />
+</Property>
+</SolverControls>
+<EulerDomainControls>
+<Property name="Euler Tracking">
+<Data format="string">Track By Body</Data>
+<Units />
+</Property>
+</EulerDomainControls>
+<DampingControls>
+<Property name="Linear Artificial Viscosity">
+<Data format="float"> 2.00000E-01</Data>
+<Units />
+</Property>
+<Property name="Quadratic Artificial Viscosity">
+<Data format="float"> 1.00000E+00</Data>
+<Units />
+</Property>
+<Property name="Linear Viscosity in Expansion">
+<Data format="string">Yes</Data>
+<Units />
+</Property>
+<Property name="Artificial Viscosity Shells">
+<Data format="string">Yes</Data>
+<Units />
+</Property>
+<Property name="Static Damping">
+<Data format="float"> 0.00000E+00</Data>
+<Units />
+</Property>
+</DampingControls>
+<ErosionControls>
+<Property name="On Geometric Strain Limit">
+<Data format="string">No</Data>
+<Units />
+</Property>
+<Property name="On Material Failure">
+<Data format="string">No</Data>
+<Units />
+</Property>
+<Property name="On Minimum Element Timestep">
+<Data format="string">No</Data>
+<Units />
+</Property>
+<Property name="Retain Inertia of Eroded Eleme">
+<Data format="string">No</Data>
+<Units />
+</Property>
+</ErosionControls>
+<OutputControls>
+<Property name="StepAware Output Controls">
+<Data format="string">No</Data>
+<Units />
+</Property>
+<Property name="Save Results">
+<Data format="int">100000000</Data>
+<Units />
+</Property>
+<Property name="Save Restart Files">
+<Data format="float"> 1.00000E-03</Data>
+<Units>ms</Units>
+</Property>
+<Property name="Save Probe Data">
+<Data format="int">1</Data>
+<Units />
+</Property>
+<Property name="Save Contact Forces Data">
+<Data format="string">No</Data>
+<Units />
+</Property>
+<Property name="Print Energy Summary">
+<Data format="int">100000000</Data>
+<Units />
+</Property>
+<Property name="Solution Output Frequency">
+<Data format="int">1</Data>
+<Units />
+</Property>
+<Property name="User Edits (EXEDIT)">
+<Data format="int">100000000</Data>
+<Units />
+</Property>
+</OutputControls>
+<SphControls>
+<Property name="Quadratic Viscosity">
+<Data format="float"> 1.00000E+00</Data>
+<Units />
+</Property>
+<Property name="Linear Viscosity">
+<Data format="float"> 1.00000E+00</Data>
+<Units />
+</Property>
+<Property name="Smoothing Length">
+<Data format="int">0</Data>
+<Units />
+</Property>
+<Property name="Density Calculation">
+<Data format="int">0</Data>
+<Units />
+</Property>
+<Property name="Work Unit Size">
+<Data format="float"> 8.00000E+00</Data>
+<Units />
+</Property>
+<Property name="Buffer Zone Size">
+<Data format="float"> 2.00000E+00</Data>
+<Units />
+</Property>
+<Property name="SPH Cutoff">
+<Data format="int">0</Data>
+<Units />
+</Property>
+<Property name="Minimum Timestep">
+<Data format="float"> 1.00000E-20</Data>
+<Units>ms</Units>
+</Property>
+</SphControls>
+</AnalysisSettings>
+<Materials>
+<Material><Name>AIR</Name>
+<Equation>
+<Name>Equation of State</Name>
+<Type>Ideal Gas</Type>
+<Property name="Reference density">
+<Data format="float"> 1.22500E-03</Data>
+<Units>g/cm3</Units>
+</Property>
+<Property name="Gamma">
+<Data format="float"> 1.40000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Adiabatic constant">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Pressure shift">
+<Data format="float"> 0.00000E+00</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Reference Temperature">
+<Data format="float"> 2.88200E+02</Data>
+<Units>K</Units>
+</Property>
+<Property name="Specific Heat">
+<Data format="float"> 7.17600E+02</Data>
+<Units>J/kgK</Units>
+</Property>
+<Property name="Thermal Conductivity">
+<Data format="float"> 0.00000E+00</Data>
+<Units>J/mKs</Units>
+</Property>
+</Equation>
+<Equation>
+<Name>Strength</Name>
+<Type>None</Type>
+</Equation>
+<Equation>
+<Name>Failure</Name>
+<Type>None</Type>
+</Equation>
+<Equation>
+<Name>Erosion</Name>
+<Type>None</Type>
+</Equation>
+<Equation>
+<Name>Material Cutoffs</Name>
+<Type />
+<Property name="Maximum Expansion">
+<Data format="float"> 1.00000E-01</Data>
+<Units>none</Units>
+</Property>
+<Property name="Minimum Density Factor">
+<Data format="float"> 1.00000E-04</Data>
+<Units>none</Units>
+</Property>
+<Property name="Minimum Density Factor (SPH)">
+<Data format="float"> 2.00000E-01</Data>
+<Units>none</Units>
+</Property>
+<Property name="Maximum Density Factor (SPH)">
+<Data format="float"> 3.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Minimum Soundspeed">
+<Data format="float"> 1.00000E-02</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Maximum Soundspeed (SPH)">
+<Data format="float"> 1.01000E+20</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Maximum Temperature">
+<Data format="float"> 1.01000E+20</Data>
+<Units>K</Units>
+</Property>
+</Equation>
+<Reference>
+"Thermodynamic and Transport Properties of Fluids, SI Units", GFC Rogers, YR Mayhew                                                                                                                                                                             
+</Reference>
+</Material>
+<Material><Name>AL 2024</Name>
+<Equation>
+<Name>Equation of State</Name>
+<Type>Shock</Type>
+<Property name="Reference density">
+<Data format="float"> 2.78500E+00</Data>
+<Units>g/cm3</Units>
+</Property>
+<Property name="Gruneisen coefficient">
+<Data format="float"> 2.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Parameter C1">
+<Data format="float"> 5.32800E+03</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Parameter S1">
+<Data format="float"> 1.33800E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Parameter Quadratic S2">
+<Data format="float"> 0.00000E+00</Data>
+<Units>s/m</Units>
+</Property>
+<Property name="Relative volume, VE/V0">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Relative volume, VB/V0">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Parameter C2">
+<Data format="float"> 0.00000E+00</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Parameter S2">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Reference Temperature">
+<Data format="float"> 0.00000E+00</Data>
+<Units>K</Units>
+</Property>
+<Property name="Specific Heat">
+<Data format="float"> 0.00000E+00</Data>
+<Units>J/kgK</Units>
+</Property>
+<Property name="Thermal Conductivity">
+<Data format="float"> 0.00000E+00</Data>
+<Units>J/mKs</Units>
+</Property>
+</Equation>
+<Equation>
+<Name>Strength</Name>
+<Type>None</Type>
+</Equation>
+<Equation>
+<Name>Failure</Name>
+<Type>None</Type>
+</Equation>
+<Equation>
+<Name>Erosion</Name>
+<Type>None</Type>
+</Equation>
+<Equation>
+<Name>Material Cutoffs</Name>
+<Type />
+<Property name="Maximum Expansion">
+<Data format="float"> 1.00000E-01</Data>
+<Units>none</Units>
+</Property>
+<Property name="Minimum Density Factor">
+<Data format="float"> 1.00000E-04</Data>
+<Units>none</Units>
+</Property>
+<Property name="Minimum Density Factor (SPH)">
+<Data format="float"> 2.00000E-01</Data>
+<Units>none</Units>
+</Property>
+<Property name="Maximum Density Factor (SPH)">
+<Data format="float"> 3.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Minimum Soundspeed">
+<Data format="float"> 1.00000E-06</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Maximum Soundspeed (SPH)">
+<Data format="float"> 1.01000E+20</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Maximum Temperature">
+<Data format="float"> 1.01000E+20</Data>
+<Units>K</Units>
+</Property>
+</Equation>
+<Reference>
+LS-4167-MS. May 1 1969. Selected Hugoniots                                                                                                                                                                                                                      
+</Reference>
+</Material>
+<Material><Name>COPPER</Name>
+<Equation>
+<Name>Equation of State</Name>
+<Type>Shock</Type>
+<Property name="Reference density">
+<Data format="float"> 8.90000E+00</Data>
+<Units>g/cm3</Units>
+</Property>
+<Property name="Gruneisen coefficient">
+<Data format="float"> 2.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Parameter C1">
+<Data format="float"> 3.95800E+03</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Parameter S1">
+<Data format="float"> 1.49700E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Parameter Quadratic S2">
+<Data format="float"> 0.00000E+00</Data>
+<Units>s/m</Units>
+</Property>
+<Property name="Relative volume, VE/V0">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Relative volume, VB/V0">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Parameter C2">
+<Data format="float"> 0.00000E+00</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Parameter S2">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Reference Temperature">
+<Data format="float"> 3.00000E+02</Data>
+<Units>K</Units>
+</Property>
+<Property name="Specific Heat">
+<Data format="float"> 0.00000E+00</Data>
+<Units>J/kgK</Units>
+</Property>
+<Property name="Thermal Conductivity">
+<Data format="float"> 0.00000E+00</Data>
+<Units>J/mKs</Units>
+</Property>
+</Equation>
+<Equation>
+<Name>Strength</Name>
+<Type>Piecewise JC</Type>
+<Property name="Shear Modulus">
+<Data format="float"> 4.64000E+07</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Yield Stress (zero plastic str">
+<Data format="float"> 1.20000E+05</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Eff. Plastic Strain #1">
+<Data format="float"> 3.00000E-01</Data>
+<Units>none</Units>
+</Property>
+<Property name="Eff. Plastic Strain #2">
+<Data format="float"> 1.00000E+20</Data>
+<Units>none</Units>
+</Property>
+<Property name="Eff. Plastic Strain #3">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Eff. Plastic Strain #4">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Eff. Plastic Strain #5">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Eff. Plastic Strain #6">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Eff. Plastic Strain #7">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Eff. Plastic Strain #8">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Eff. Plastic Strain #9">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Eff. Plastic Strain #10">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Yield Stress #1">
+<Data format="float"> 4.50000E+05</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Yield Stress #2">
+<Data format="float"> 4.50000E+05</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Yield Stress #3">
+<Data format="float"> 0.00000E+00</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Yield Stress #4">
+<Data format="float"> 0.00000E+00</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Yield Stress #5">
+<Data format="float"> 0.00000E+00</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Yield Stress #6">
+<Data format="float"> 0.00000E+00</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Yield Stress #7">
+<Data format="float"> 0.00000E+00</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Yield Stress #8">
+<Data format="float"> 0.00000E+00</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Yield Stress #9">
+<Data format="float"> 0.00000E+00</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Yield Stress #10">
+<Data format="float"> 0.00000E+00</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Strain Rate Constant">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Thermal Softening Exponent">
+<Data format="float"> 1.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Melting Temperature">
+<Data format="float"> 1.00000E+20</Data>
+<Units>K</Units>
+</Property>
+<Property name="Ref. Strain Rate (/s)">
+<Data format="float"> 1.00000E+00</Data>
+<Units>none</Units>
+</Property>
+</Equation>
+<Equation>
+<Name>Failure</Name>
+<Type>None</Type>
+</Equation>
+<Equation>
+<Name>Erosion</Name>
+<Type>None</Type>
+</Equation>
+<Equation>
+<Name>Material Cutoffs</Name>
+<Type />
+<Property name="Maximum Expansion">
+<Data format="float"> 1.00000E-01</Data>
+<Units>none</Units>
+</Property>
+<Property name="Minimum Density Factor">
+<Data format="float"> 1.00000E-04</Data>
+<Units>none</Units>
+</Property>
+<Property name="Minimum Density Factor (SPH)">
+<Data format="float"> 2.00000E-01</Data>
+<Units>none</Units>
+</Property>
+<Property name="Maximum Density Factor (SPH)">
+<Data format="float"> 3.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Minimum Soundspeed">
+<Data format="float"> 1.00000E-06</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Maximum Soundspeed (SPH)">
+<Data format="float"> 1.01000E+20</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Maximum Temperature">
+<Data format="float"> 1.01000E+20</Data>
+<Units>K</Units>
+</Property>
+</Equation>
+<Reference>
+AFATL-TR-84-59. June 1984. Matuska D.A.           HULL Users Manual                                                                                                                                                                                             
+</Reference>
+</Material>
+<Material><Name>LX-14-0</Name>
+<Equation>
+<Name>Equation of State</Name>
+<Type>JWL</Type>
+<Property name="Reference density">
+<Data format="float"> 1.83500E+00</Data>
+<Units>g/cm3</Units>
+</Property>
+<Property name="Parameter A">
+<Data format="float"> 8.26100E+08</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Parameter B">
+<Data format="float"> 1.72400E+07</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Parameter R1">
+<Data format="float"> 4.55000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Parameter R2">
+<Data format="float"> 1.32000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Parameter W">
+<Data format="float"> 3.80000E-01</Data>
+<Units>none</Units>
+</Property>
+<Property name="C-J Detonation velocity">
+<Data format="float"> 8.80000E+03</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="C-J Energy / unit volume">
+<Data format="float"> 1.02000E+07</Data>
+<Units>kJ/m3</Units>
+</Property>
+<Property name="C-J Pressure">
+<Data format="float"> 3.70000E+07</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Burn on compression fraction">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Pre-burn bulk modulus">
+<Data format="float"> 0.00000E+00</Data>
+<Units>kPa</Units>
+</Property>
+<Property name="Adiabatic constant">
+<Data format="float"> 0.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Auto-convert to Ideal Gas">
+<Data format="string">Yes</Data>
+<Units />
+</Property>
+<Property name="Additional Options (Beta)">
+<Data format="string">None</Data>
+<Units />
+</Property>
+</Equation>
+<Equation>
+<Name>Strength</Name>
+<Type>None</Type>
+</Equation>
+<Equation>
+<Name>Failure</Name>
+<Type>None</Type>
+</Equation>
+<Equation>
+<Name>Erosion</Name>
+<Type>None</Type>
+</Equation>
+<Equation>
+<Name>Material Cutoffs</Name>
+<Type />
+<Property name="Maximum Expansion">
+<Data format="float"> 1.00000E-01</Data>
+<Units>none</Units>
+</Property>
+<Property name="Minimum Density Factor">
+<Data format="float"> 1.00000E-06</Data>
+<Units>none</Units>
+</Property>
+<Property name="Minimum Density Factor (SPH)">
+<Data format="float"> 2.00000E-01</Data>
+<Units>none</Units>
+</Property>
+<Property name="Maximum Density Factor (SPH)">
+<Data format="float"> 3.00000E+00</Data>
+<Units>none</Units>
+</Property>
+<Property name="Minimum Soundspeed">
+<Data format="float"> 1.00000E-06</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Maximum Soundspeed (SPH)">
+<Data format="float"> 1.01000E+20</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Maximum Temperature">
+<Data format="float"> 1.01000E+20</Data>
+<Units>K</Units>
+</Property>
+</Equation>
+<Reference>
+"LLNL Explosives Handbook"  Dobratz B.M + CrawfordP.C.  UCRL-52997 Rev.2   January 1985                                                                                                                                                                         
+</Reference>
+</Material>
+</Materials>
+<InitialConditions>
+<InitialCondition>
+<Name>StillAir</Name>
+<Property name="Material">
+<Data format="string">AIR</Data>
+<Units />
+</Property>
+<Property name="Density">
+<Data format="float"> 1.22500E-03</Data>
+<Units>g/cm3</Units>
+</Property>
+<Property name="Internal Energy">
+<Data format="float"> 2.06640E+05</Data>
+<Units>J/kg</Units>
+</Property>
+<Property name="Shell Thickness">
+<Data format="float"> 0.00000E+00</Data>
+<Units>mm</Units>
+</Property>
+<Property name="X Velocity">
+<Data format="float"> 0.00000E+00</Data>
+<Units>m/s</Units>
+</Property>
+<Property name="Y Velocity">
+<Data format="float"> 0.00000E+00</Data>
+<Units>m/s</Units>
+</Property>
+</InitialCondition>
+</InitialConditions>
+<BoundaryConditions>
+<Boundary>
+<Name>FlowOut</Name>
+<Type>Flow out (Euler)</Type>
+<CoordinateSystem>0</CoordinateSystem>
+<MobileCoordinateSystem>0</MobileCoordinateSystem>
+<LoadCaseID>0</LoadCaseID>
+<WBBoundCondID>0</WBBoundCondID>
+<Property name="Preferred Material">
+<Data format="string">ALL EQUAL</Data>
+<Units />
+</Property>
+</Boundary>
+</BoundaryConditions>
+<Gravity>
+<Property name="X Acceleration">
+<Data format="float"> 0.00000E+00</Data>
+<Units>mm/ms2</Units>
+</Property>
+<Property name="Y Acceleration">
+<Data format="float"> 0.00000E+00</Data>
+<Units>mm/ms2</Units>
+</Property>
+<Property name="Z Acceleration">
+<Data format="float"> 0.00000E+00</Data>
+<Units>mm/ms2</Units>
+</Property>
+</Gravity>
+<Interaction>
+<Property name="Interaction Type">
+<Data format="string">Gap Contact</Data>
+<Units />
+</Property>
+<Property name="Gap size">
+<Data format="float"> 0.00000E+00</Data>
+<Units>mm</Units>
+</Property>
+<Property name="Element Self Contact">
+<Data format="string">Yes</Data>
+<Units />
+</Property>
+<Matrix>
+</Matrix>
+<DecayConstants>
+</DecayConstants>
+<DynamicCoefficients>
+</DynamicCoefficients>
+<StaticCoefficients>
+</StaticCoefficients>
+</Interaction>
+<Contacts>
+<Reinforcement>
+<Scoping>
+</Scoping>
+</Reinforcement>
+</Contacts>
+<CrossSections>
+</CrossSections>
+<ResultTrackers>
+</ResultTrackers>
+<CoordinateSystems>
+</CoordinateSystems>
+<Detonations>
+<Detonation>
+<DetonationNumber>           1</DetonationNumber>
+<Type>Point</Type>
+<Property name="LocationX">
+<Data format="float">-2.00000E+01</Data>
+<Units>mm</Units>
+</Property>
+<Property name="LocationY">
+<Data format="float"> 0.00000E+00</Data>
+<Units>mm</Units>
+</Property>
+<Property name="DetonationTime">
+<Data format="float"> 0.00000E+00</Data>
+<Units>ms</Units>
+</Property>
+</Detonation>
+</Detonations>
+</AUTODYNSummary>
