@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Storage>
+  <Project Version="9.1" />
+  <Addins>
+    <addin-list valType="String">[Ansys.ParameterManager.ParameterManagerAddin, Ansys.AUTODYN.DataModel.Addin, Ansys.Dpdb.DpdbAddin, Ansys.Rep.RepAddin]</addin-list>
+    <Addin Name="Ansys.ParameterManager.ParameterManagerAddin" Version="7.3" />
+    <Addin Name="Ansys.AUTODYN.DataModel.Addin" Version="17.0.0.0" />
+    <Addin Name="Ansys.Dpdb.DpdbAddin" Version="4.2">
+      <is-optional-on-resume valType="Boolean">true</is-optional-on-resume>
+    </Addin>
+    <Addin Name="Ansys.Rep.RepAddin" Version="24.1.1.0">
+      <is-optional-on-resume valType="Boolean">true</is-optional-on-resume>
+    </Addin>
+  </Addins>
+  <Containers>
+    <container-map valType="String">{"Scopes": Ansys.ParameterManager.ParameterManagerAddin:scopes, "Setup": Ansys.AUTODYN.DataModel.Addin:AUTODYN_Solution, "Analysis": Ansys.AUTODYN.DataModel.Addin:AUTODYN_Results}</container-map>
+    <static-container-ids valType="String">{"Scopes": Scopes}</static-container-ids>
+    <Container Name="Scopes" Version="1.0">
+      <container-type valType="String">Ansys.ParameterManager.ParameterManagerAddin:scopes</container-type>
+      <static-id valType="String">Scopes</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 1503, "Input": 1504, "Output": 1503}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <Object Name="/Scopes/GlobalScope:GlobalScope" Version="1.0">
+        <class-type valType="String">GlobalScope</class-type>
+        <object-name valType="String">GlobalScope</object-name>
+        <member-data valType="String">{"DisplayText": "GlobalScope", "_fieldExpressionValidationContext": None, "functionProviders": [], "Parent": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Setup" Version="1.0">
+      <container-type valType="String">Ansys.AUTODYN.DataModel.Addin:AUTODYN_Solution</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">1909</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 1871, "Input": 1871, "Output": 1871}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Setup": 1906, "Analysis": 1908}</last-update-regen-times>
+      <unique-system-dir valType="String">ATD</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Setup/AutodynSetup:Setup" Version="1.0">
+        <class-type valType="String">AutodynSetup</class-type>
+        <object-name valType="String">Setup</object-name>
+        <member-data valType="String">{"DisplayText": "Setup", "FileName": r"C:\Users\pattn\OneDrive - iitr.ac.in\Desktop\btp\W_CB_files\dp0\ATD\ATD\autodyn_0.ad", "Directory": r"C:\Users\pattn\OneDrive - iitr.ac.in\Desktop\btp\W_CB_files\dp0\ATD\ATD", "FileReference": $$dc727289-fe30-497a-8bb0-6c9139fb2b44, "CAERepReference": None, "JobId": None, "MaterialConditionsReference": None, "iState": -1, "Precision": "Double", "strUserExecutable": "", "bHasExposedMaterialConditions": False, "bIsRunning": False, "dProgress": 0, "SystemName": "AUTODYN", "iOpen": 1, "simulationMeshContainer": None, "UniqueIdentifier": "b7949e74-a132-4753-9418-a35d4fcea89d", "bLinked": False, "bStartup": True, "bIsDirty": False, "bJustOpened": False, "bFirstXFer": True, "bForceUpdate": False, "bFileChanged": False, "bWasBatchRunner": False, "bDuplicating": False, "bSetupFailed": False, "_solutionState": {"State": "Incomplete", "ComponentQuickHelpId": "", "IsInterrupted": False, "ExtraMessageForNotUpdatableError": None}}</member-data>
+        <custom-data>
+          <FileReference valType="String">dc727289-fe30-497a-8bb0-6c9139fb2b44</FileReference>
+          <FileName valType="String">C:\Users\pattn\OneDrive - iitr.ac.in\Desktop\btp\W_CB_files\dp0\ATD\ATD\autodyn_0.ad</FileName>
+          <Directory valType="String">C:\Users\pattn\OneDrive - iitr.ac.in\Desktop\btp\W_CB_files\dp0\ATD\ATD</Directory>
+          <CAERepReference valType="String">null</CAERepReference>
+          <MaterialReference valType="String">null</MaterialReference>
+          <IState valType="String">-1</IState>
+          <ComponentState valType="String">4</ComponentState>
+          <UserExe valType="String"></UserExe>
+          <HasMaterials valType="String">False</HasMaterials>
+          <Progress valType="String">0</Progress>
+          <Systemname valType="String">AUTODYN</Systemname>
+          <UniqueID valType="String">b7949e74-a132-4753-9418-a35d4fcea89d</UniqueID>
+          <IsLinked valType="String">False</IsLinked>
+          <IsStartup valType="String">True</IsStartup>
+          <IsDirty valType="String">False</IsDirty>
+          <FirstXFer valType="String">True</FirstXFer>
+          <ForceUpdate valType="String">False</ForceUpdate>
+          <FileChanged valType="String">False</FileChanged>
+          <WasBatchRunner valType="String">False</WasBatchRunner>
+          <IsDuplicating valType="String">False</IsDuplicating>
+          <SetupFailed valType="String">False</SetupFailed>
+          <value-keys valType="String">{"FileReference": System.String, "FileName": System.String, "Directory": System.String, "CAERepReference": System.String, "MaterialReference": System.String, "IState": System.Int32, "ComponentState": System.Int32, "UserExe": System.String, "HasMaterials": System.Boolean, "Progress": System.Double, "Systemname": System.String, "UniqueID": System.String, "IsLinked": System.Boolean, "IsStartup": System.Boolean, "IsDirty": System.Boolean, "FirstXFer": System.Boolean, "ForceUpdate": System.Boolean, "FileChanged": System.Boolean, "WasBatchRunner": System.Boolean, "IsDuplicating": System.Boolean, "SetupFailed": System.Boolean}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Setup/AnsAUTODYNDataModelConnectionsUpstreamConnections:AnsAUTODYNDataModelConnectionsUpstreamConnections" Version="1.0">
+        <class-type valType="String">AnsAUTODYNDataModelConnectionsUpstreamConnections</class-type>
+        <object-name valType="String">AnsAUTODYNDataModelConnectionsUpstreamConnections</object-name>
+        <member-data valType="String">{"DisplayText": "AnsAUTODYNDataModelConnectionsUpstreamConnections"}</member-data>
+        <custom-data>
+          <Version valType="String">5</Version>
+          <value-keys valType="String">{"Version": System.Int32}</value-keys>
+          <dictionary-keys valType="String">[m_TypeToConnections]</dictionary-keys>
+          <m_TypeToConnections />
+        </custom-data>
+      </Object>
+    </Container>
+    <Container Name="Analysis" Version="1.0">
+      <container-type valType="String">Ansys.AUTODYN.DataModel.Addin:AUTODYN_Results</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">1908</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 1881, "Input": 1881, "Output": 1881}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Scopes": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "RepContainer": 0, "Setup": 1906, "Analysis": 1908}</last-update-regen-times>
+      <unique-system-dir valType="String">ATD</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Analysis/AutodynAnalysis:Analysis" Version="1.0">
+        <class-type valType="String">AutodynAnalysis</class-type>
+        <object-name valType="String">Analysis</object-name>
+        <member-data valType="String">{"DisplayText": "Analysis", "iState": -1, "_resultsState": {"State": "UpToDate", "ComponentQuickHelpId": "", "IsInterrupted": False, "ExtraMessageForNotUpdatableError": None}, "bDuplicating": False}</member-data>
+        <custom-data>
+          <IState valType="String">-1</IState>
+          <ResultsState valType="String">0</ResultsState>
+          <IsDuplicating valType="String">False</IsDuplicating>
+          <value-keys valType="String">{"IState": System.Int32, "ResultsState": System.Int32, "IsDuplicating": System.Boolean}</value-keys>
+        </custom-data>
+      </Object>
+    </Container>
+  </Containers>
+</Storage>
